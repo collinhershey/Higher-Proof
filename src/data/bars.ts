@@ -353,6 +353,46 @@ export const BARS: Bar[] = [
   { id: 'schofields', name: "Schofield's", city: 'Manchester', country: 'UK' },
   { id: 'swift', name: 'Swift', city: 'London', country: 'UK' },
   { id: 'viajante87', name: 'Viajante87', city: 'London', country: 'UK' },
+
+  // ============================================================
+  // NA 2022-2025 historical additions (28 bars)
+  // ============================================================
+
+  // === Canada ===
+  { id: 'bar-kismet', name: 'Bar Kismet', city: 'Halifax', country: 'Canada' },
+  { id: 'bar-raval', name: 'Bar Raval', city: 'Toronto', country: 'Canada' },
+  { id: 'el-pequeno-bar', name: 'El Pequeño Bar', city: 'Montreal', country: 'Canada' },
+
+  // === Cuba ===
+  { id: 'el-floridita', name: 'El Floridita', city: 'Havana', country: 'Cuba' },
+
+  // === Mexico ===
+  { id: 'bijou-drinkery-room', name: 'Bijou Drinkery Room', city: 'Mexico City', country: 'Mexico' },
+  { id: 'brujas', name: 'Brujas', city: 'Mexico City', country: 'Mexico' },
+  { id: 'sabina-sabe', name: 'Sabina Sabe', city: 'Oaxaca', country: 'Mexico' },
+
+  // === USA ===
+  { id: 'abv', name: 'ABV', city: 'San Francisco', state: 'CA', country: 'USA' },
+  { id: 'amor-y-amargo', name: 'Amor y Amargo', city: 'New York', state: 'NY', country: 'USA' },
+  { id: 'bitter-twisted', name: 'Bitter & Twisted', city: 'Phoenix', state: 'AZ', country: 'USA' },
+  { id: 'broken-shaker', name: 'Broken Shaker', city: 'Miami', state: 'FL', country: 'USA' },
+  { id: 'century-grand', name: 'Century Grand', city: 'Phoenix', state: 'AZ', country: 'USA' },
+  { id: 'clover-club', name: 'Clover Club', city: 'New York', state: 'NY', country: 'USA' },
+  { id: 'dear-irving', name: 'Dear Irving', city: 'New York', state: 'NY', country: 'USA' },
+  { id: 'death-co-denver', name: 'Death & Co (Denver)', city: 'Denver', state: 'CO', country: 'USA' },
+  { id: 'death-co-los-angeles', name: 'Death & Co (Los Angeles)', city: 'Los Angeles', state: 'CA', country: 'USA' },
+  { id: 'friends-and-family', name: 'Friends and Family', city: 'Oakland', state: 'CA', country: 'USA' },
+  { id: 'genever', name: 'Genever', city: 'Los Angeles', state: 'CA', country: 'USA' },
+  { id: 'herbs-rye', name: 'Herbs & Rye', city: 'Las Vegas', state: 'NV', country: 'USA' },
+  { id: 'mace', name: 'Mace', city: 'New York', state: 'NY', country: 'USA' },
+  { id: 'miladys', name: "Milady's", city: 'New York', state: 'NY', country: 'USA' },
+  { id: 'milk-room', name: 'Milk Room', city: 'Chicago', state: 'IL', country: 'USA' },
+  { id: 'platform-18', name: 'Platform 18', city: 'Phoenix', state: 'AZ', country: 'USA' },
+  { id: 'raised-by-wolves', name: 'Raised by Wolves', city: 'San Diego', state: 'CA', country: 'USA' },
+  { id: 'sweet-liberty', name: 'Sweet Liberty', city: 'Miami', state: 'FL', country: 'USA' },
+  { id: 'teardrop-lounge', name: 'Teardrop Lounge', city: 'Portland', state: 'OR', country: 'USA' },
+  { id: 'the-dead-rabbit', name: 'The Dead Rabbit', city: 'New York', state: 'NY', country: 'USA' },
+  { id: 'youngblood', name: 'Youngblood', city: 'San Diego', state: 'CA', country: 'USA' },
 ];
 
 // Lookup helper — used throughout the app
