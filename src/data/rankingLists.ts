@@ -20,6 +20,30 @@ export const RANKING_LISTS: RankingList[] = [
     year: 2026,
     source: 'official',
   },
+  {
+    id: 'world-2022',
+    name: "The World's 50 Best Bars 2022",
+    shortName: 'World 2022',
+    region: 'World',
+    year: 2022,
+    source: 'official',
+  },
+  {
+    id: 'world-2023',
+    name: "The World's 50 Best Bars 2023",
+    shortName: 'World 2023',
+    region: 'World',
+    year: 2023,
+    source: 'official',
+  },
+  {
+    id: 'world-2024',
+    name: "The World's 50 Best Bars 2024",
+    shortName: 'World 2024',
+    region: 'World',
+    year: 2024,
+    source: 'official',
+  },
 ];
 
 export const RANKING_LISTS_BY_ID: Map<string, RankingList> = new Map(
