@@ -393,6 +393,147 @@ export const BARS: Bar[] = [
   { id: 'teardrop-lounge', name: 'Teardrop Lounge', city: 'Portland', state: 'OR', country: 'USA' },
   { id: 'the-dead-rabbit', name: 'The Dead Rabbit', city: 'New York', state: 'NY', country: 'USA' },
   { id: 'youngblood', name: 'Youngblood', city: 'San Diego', state: 'CA', country: 'USA' },
+
+  // ============================================================
+  // Asia 2022-2025 historical additions (105 bars)
+  // ============================================================
+
+  // === Cambodia ===
+  { id: 'sora', name: 'Sora', city: 'Phnom Penh', country: 'Cambodia' },
+
+  // === China ===
+  { id: 'cmyk', name: 'CMYK', city: 'Changsha', country: 'China' },
+  { id: 'coa-shanghai', name: 'Coa (Shanghai)', city: 'Shanghai', country: 'China' },
+  { id: 'epic', name: 'Epic', city: 'Shanghai', country: 'China' },
+  { id: 'mo-bar-shenzhen', name: 'MO Bar Shenzhen', city: 'Shenzhen', country: 'China' },
+  { id: 'obsidian-bar', name: 'Obsidian Bar', city: 'Shenzhen', country: 'China' },
+  { id: 'pony-up', name: 'Pony Up', city: 'Shanghai', country: 'China' },
+  { id: 'sober-company', name: 'Sober Company', city: 'Shanghai', country: 'China' },
+  { id: 'speak-low', name: 'Speak Low', city: 'Shanghai', country: 'China' },
+  { id: 'union-trading-company', name: 'Union Trading Company', city: 'Shanghai', country: 'China' },
+
+  // === Hong Kong ===
+  { id: 'honky-tonks-tavern', name: 'Honky Tonks Tavern', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'mizunara-the-library', name: 'Mizunara: The Library', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'mostly-harmless', name: 'Mostly Harmless', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'quinary', name: 'Quinary', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'tell-camellia', name: 'Tell Camellia', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'the-aubrey', name: 'The Aubrey', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'the-old-man', name: 'The Old Man', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'the-opposites', name: 'The Opposites', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'the-pontiac', name: 'The Pontiac', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'the-wise-king', name: 'The Wise King', city: 'Hong Kong', country: 'Hong Kong' },
+
+  // === India ===
+  { id: 'bar-outrigger', name: 'Bar Outrigger', city: 'Goa', country: 'India' },
+  { id: 'bar-spirit-forward', name: 'Bar Spirit Forward', city: 'Bengaluru', country: 'India' },
+  { id: 'boilermaker', name: 'Boilermaker', city: 'Goa', country: 'India' },
+  { id: 'copitas', name: 'Copitas', city: 'Bengaluru', country: 'India' },
+  { id: 'hideaway', name: 'Hideaway', city: 'Goa', country: 'India' },
+  { id: 'home', name: 'Home', city: 'New Delhi', country: 'India' },
+  { id: 'hoots', name: "Hoots'", city: 'New Delhi', country: 'India' },
+  { id: 'soka', name: 'Soka', city: 'Bengaluru', country: 'India' },
+  { id: 'tesouro', name: 'Tesouro', city: 'Colvá', country: 'India' },
+  { id: 'the-bombay-canteen', name: 'The Bombay Canteen', city: 'Mumbai', country: 'India' },
+  { id: 'the-living-room', name: 'The Living Room', city: 'Mumbai', country: 'India' },
+  { id: 'zlb23', name: 'ZLB23', city: 'Bengaluru', country: 'India' },
+
+  // === Indonesia ===
+  { id: 'carrots-bar', name: 'Carrots Bar', city: 'Jakarta', country: 'Indonesia' },
+  { id: 'cosmo-pony', name: 'Cosmo Pony', city: 'Jakarta', country: 'Indonesia' },
+  { id: 'modernhaus', name: 'Modernhaus', city: 'Jakarta', country: 'Indonesia' },
+  { id: 'pantja', name: 'Pantja', city: 'Jakarta', country: 'Indonesia' },
+  { id: 'the-cocktail-club', name: 'The Cocktail Club', city: 'Jakarta', country: 'Indonesia' },
+  { id: 'the-golden-tooth', name: 'The Golden Tooth', city: 'Jakarta', country: 'Indonesia' },
+  { id: 'the-st-regis-bar-jakarta', name: 'The St. Regis Bar (Jakarta)', city: 'Jakarta', country: 'Indonesia' },
+
+  // === Japan ===
+  { id: 'bar-libre', name: 'Bar Libre', city: 'Tokyo', country: 'Japan' },
+  { id: 'bar-nayuta', name: 'Bar Nayuta', city: 'Osaka', country: 'Japan' },
+  { id: 'bees-knees', name: "Bee's Knees", city: 'Kyoto', country: 'Japan' },
+  { id: 'bulgari-ginza-bar', name: 'Bulgari Ginza Bar', city: 'Tokyo', country: 'Japan' },
+  { id: 'craftroom', name: 'Craftroom', city: 'Osaka', country: 'Japan' },
+  { id: 'folklore', name: 'Folklore', city: 'Tokyo', country: 'Japan' },
+  { id: 'gold-bar', name: 'Gold Bar', city: 'Tokyo', country: 'Japan' },
+  { id: 'lamp-bar', name: 'Lamp Bar', city: 'Nara', country: 'Japan' },
+  { id: 'memento-mori', name: 'Memento Mori', city: 'Tokyo', country: 'Japan' },
+  { id: 'punch-room-tokyo', name: 'Punch Room Tokyo', city: 'Tokyo', country: 'Japan' },
+  { id: 'the-sailing-bar', name: 'The Sailing Bar', city: 'Nara', country: 'Japan' },
+  { id: 'tokyo-confidential', name: 'Tokyo Confidential', city: 'Tokyo', country: 'Japan' },
+  { id: 'yakoboku', name: 'Yakoboku', city: 'Kumamoto', country: 'Japan' },
+
+  // === Macau ===
+  { id: 'the-st-regis-bar-macau', name: 'The St. Regis Bar (Macau)', city: 'Macau', country: 'Macau' },
+
+  // === Malaysia ===
+  { id: 'backdoor-bodega', name: 'Backdoor Bodega', city: 'Penang', country: 'Malaysia' },
+  { id: 'bar-trigona', name: 'Bar Trigona', city: 'Kuala Lumpur', country: 'Malaysia' },
+  { id: 'coley', name: 'Coley', city: 'Kuala Lumpur', country: 'Malaysia' },
+  { id: 'junglebird', name: 'Junglebird', city: 'Kuala Lumpur', country: 'Malaysia' },
+  { id: 'reka', name: 'Reka', city: 'Kuala Lumpur', country: 'Malaysia' },
+  { id: 'three-x-co', name: 'Three X Co', city: 'Kuala Lumpur', country: 'Malaysia' },
+
+  // === Nepal ===
+  { id: 'barc', name: 'Barc', city: 'Kathmandu', country: 'Nepal' },
+
+  // === Philippines ===
+  { id: 'southbank-cafe-lounge', name: 'Southbank Cafe + Lounge', city: 'Muntinlupa City', country: 'Philippines' },
+  { id: 'the-curator', name: 'The Curator', city: 'Manila', country: 'Philippines' },
+
+  // === Singapore ===
+  { id: 'employees-only-singapore', name: 'Employees Only', city: 'Singapore', country: 'Singapore' },
+  { id: 'fura', name: 'Fura', city: 'Singapore', country: 'Singapore' },
+  { id: 'last-word', name: 'Last Word', city: 'Singapore', country: 'Singapore' },
+  { id: 'mo-bar', name: 'MO Bar', city: 'Singapore', country: 'Singapore' },
+  { id: 'no-sleep-club', name: 'No Sleep Club', city: 'Singapore', country: 'Singapore' },
+  { id: 'offtrack', name: 'Offtrack', city: 'Singapore', country: 'Singapore' },
+  { id: 'origin-bar', name: 'Origin Bar', city: 'Singapore', country: 'Singapore' },
+  { id: 'republic', name: 'Republic', city: 'Singapore', country: 'Singapore' },
+  { id: 'side-door', name: 'Side Door', city: 'Singapore', country: 'Singapore' },
+  { id: 'stay-gold-flamingo', name: 'Stay Gold Flamingo', city: 'Singapore', country: 'Singapore' },
+  { id: 'the-elephant-room', name: 'The Elephant Room', city: 'Singapore', country: 'Singapore' },
+  { id: 'tippling-club', name: 'Tippling Club', city: 'Singapore', country: 'Singapore' },
+
+  // === South Korea ===
+  { id: 'alice', name: 'Alice', city: 'Seoul', country: 'South Korea' },
+  { id: 'charles-h', name: 'Charles H', city: 'Seoul', country: 'South Korea' },
+  { id: 'gong-gan', name: 'Gong Gan', city: 'Seoul', country: 'South Korea' },
+  { id: 'le-chamber', name: 'Le Chamber', city: 'Seoul', country: 'South Korea' },
+  { id: 'pine-co', name: 'Pine & Co', city: 'Seoul', country: 'South Korea' },
+  { id: 'soko', name: 'Soko', city: 'Seoul', country: 'South Korea' },
+  { id: 'southside-parlor', name: 'Southside Parlor', city: 'Seoul', country: 'South Korea' },
+
+  // === Sri Lanka ===
+  { id: 'raa', name: 'Raa', city: 'Hiriketiya', country: 'Sri Lanka' },
+
+  // === Taiwan ===
+  { id: 'aha-saloon', name: 'Aha Saloon', city: 'Taipei', country: 'Taiwan' },
+  { id: 'bar-mood', name: 'Bar Mood', city: 'Taipei', country: 'Taiwan' },
+  { id: 'indulge-experimental-bistro', name: 'Indulge Experimental Bistro', city: 'Taipei', country: 'Taiwan' },
+  { id: 'lab', name: 'Lab', city: 'Taipei', country: 'Taiwan' },
+  { id: 'maltail', name: 'Maltail', city: 'Kaohsiung', country: 'Taiwan' },
+  { id: 'moonrock', name: 'Moonrock', city: 'Tainan', country: 'Taiwan' },
+  { id: 'the-han-jia', name: 'The Han-Jia', city: 'Tainan', country: 'Taiwan' },
+  { id: 'the-public-house', name: 'The Public House', city: 'Taipei', country: 'Taiwan' },
+  { id: 'to-infinity-beyond', name: 'To Infinity & Beyond', city: 'Taipei', country: 'Taiwan' },
+  { id: 'under-lab', name: 'Under Lab', city: 'Taipei', country: 'Taiwan' },
+  { id: 'wu-nothingness', name: 'Wu (Nothingness)', city: 'Taipei', country: 'Taiwan' },
+
+  // === Thailand ===
+  { id: 'asia-today', name: 'Asia Today', city: 'Bangkok', country: 'Thailand' },
+  { id: 'bar-sathorn', name: 'Bar Sathorn', city: 'Bangkok', country: 'Thailand' },
+  { id: 'firefly', name: 'Firefly', city: 'Bangkok', country: 'Thailand' },
+  { id: 'g-o-d', name: 'G.O.D', city: 'Bangkok', country: 'Thailand' },
+  { id: 'messenger-service', name: 'Messenger Service', city: 'Bangkok', country: 'Thailand' },
+  { id: 'the-bamboo-bar', name: 'The Bamboo Bar', city: 'Bangkok', country: 'Thailand' },
+
+  // === Vietnam ===
+  { id: 'drinking-healing', name: 'Drinking & Healing', city: 'Ho Chi Minh City', country: 'Vietnam' },
+  { id: 'stir', name: 'Stir', city: 'Ho Chi Minh City', country: 'Vietnam' },
+  { id: 'the-enigma-mansion', name: 'The Enigma Mansion', city: 'Ho Chi Minh City', country: 'Vietnam' },
+  { id: 'the-haflington', name: 'The Haflington', city: 'Hanoi', country: 'Vietnam' },
+  { id: 'the-hudson-rooms', name: 'The Hudson Rooms', city: 'Hanoi', country: 'Vietnam' },
+  { id: 'workshop14', name: 'Workshop14', city: 'Hanoi', country: 'Vietnam' },
 ];
 
 // Lookup helper — used throughout the app
