@@ -263,6 +263,96 @@ export const BARS: Bar[] = [
 
   // === Bahamas ===
   { id: 'bon-vivants', name: 'Bon Vivants', city: 'Nassau', country: 'Bahamas' },
+
+  // ============================================================
+  // World 2022-2024 historical additions (42 bars)
+  // ============================================================
+
+  // === Australia ===
+  { id: 'above-board', name: 'Above Board', city: 'Melbourne', country: 'Australia' },
+  { id: 'cantina-ok', name: 'Cantina OK!', city: 'Sydney', country: 'Australia' },
+
+  // === Brazil ===
+  { id: 'subastor', name: 'SubAstor', city: 'São Paulo', country: 'Brazil' },
+
+  // === Cyprus ===
+  { id: 'lost-found', name: 'Lost & Found', city: 'Nicosia', country: 'Cyprus' },
+
+  // === Denmark ===
+  { id: 'ruby', name: 'Ruby', city: 'Copenhagen', country: 'Denmark' },
+
+  // === France ===
+  { id: 'little-red-door', name: 'Little Red Door', city: 'Paris', country: 'France' },
+
+  // === Germany ===
+  { id: 'velvet', name: 'Velvet', city: 'Berlin', country: 'Germany' },
+
+  // === Greece ===
+  { id: 'the-clumsies', name: 'The Clumsies', city: 'Athens', country: 'Greece' },
+
+  // === Hong Kong ===
+  { id: 'darkside', name: 'Darkside', city: 'Hong Kong', country: 'Hong Kong' },
+  { id: 'penicillin', name: 'Penicillin', city: 'Hong Kong', country: 'Hong Kong' },
+
+  // === India ===
+  { id: 'sidecar', name: 'Sidecar', city: 'New Delhi', country: 'India' },
+
+  // === Italy ===
+  { id: 'camparino-in-galleria', name: 'Camparino in Galleria', city: 'Milan', country: 'Italy' },
+
+  // === Japan ===
+  { id: 'high-five', name: 'High Five', city: 'Tokyo', country: 'Japan' },
+
+  // === Malaysia ===
+  { id: 'penrose', name: 'Penrose', city: 'Kuala Lumpur', country: 'Malaysia' },
+
+  // === Mexico ===
+  { id: 'hanky-panky', name: 'Hanky Panky', city: 'Mexico City', country: 'Mexico' },
+  { id: 'rayo', name: 'Rayo', city: 'Mexico City', country: 'Mexico' },
+
+  // === Peru ===
+  { id: 'carnaval', name: 'Carnaval', city: 'Lima', country: 'Peru' },
+
+  // === Portugal ===
+  { id: 'red-frog', name: 'Red Frog', city: 'Lisbon', country: 'Portugal' },
+
+  // === Singapore ===
+  { id: '28-hongkong-street', name: '28 HongKong Street', city: 'Singapore', country: 'Singapore' },
+  { id: 'analogue-initiative', name: 'Analogue Initiative', city: 'Singapore', country: 'Singapore' },
+  { id: 'atlas', name: 'Atlas', city: 'Singapore', country: 'Singapore' },
+  { id: 'cat-bite-club', name: 'Cat Bite Club', city: 'Singapore', country: 'Singapore' },
+  { id: 'manhattan', name: 'Manhattan', city: 'Singapore', country: 'Singapore' },
+  { id: 'night-hawk', name: 'Night Hawk', city: 'Singapore', country: 'Singapore' },
+  { id: 'sago-house', name: 'Sago House', city: 'Singapore', country: 'Singapore' },
+
+  // === South Africa ===
+  { id: 'sin-tax', name: 'Sin + Tax', city: 'Johannesburg', country: 'South Africa' },
+
+  // === Spain ===
+  { id: 'two-schmucks', name: 'Two Schmucks', city: 'Barcelona', country: 'Spain' },
+
+  // === Sweden ===
+  { id: 'lucys-flower-shop', name: "Lucy's Flower Shop", city: 'Stockholm', country: 'Sweden' },
+
+  // === Thailand ===
+  { id: 'mahaniyom-cocktail-bar', name: 'Mahaniyom Cocktail Bar', city: 'Bangkok', country: 'Thailand' },
+  { id: 'tropic-city', name: 'Tropic City', city: 'Bangkok', country: 'Thailand' },
+  { id: 'vesper', name: 'Vesper', city: 'Bangkok', country: 'Thailand' },
+
+  // === UAE ===
+  { id: 'bulgari-bar', name: 'Bulgari Bar', city: 'Dubai', country: 'UAE' },
+  { id: 'ergo', name: 'Ergo', city: 'Dubai', country: 'UAE' },
+  { id: 'galaxy-bar', name: 'Galaxy Bar', city: 'Dubai', country: 'UAE' },
+  { id: 'zuma', name: 'Zuma', city: 'Dubai', country: 'UAE' },
+
+  // === UK ===
+  { id: 'amaro', name: 'Amaro', city: 'London', country: 'UK' },
+  { id: 'artesian', name: 'Artesian', city: 'London', country: 'UK' },
+  { id: 'donovan-bar', name: 'Donovan Bar', city: 'London', country: 'UK' },
+  { id: 'lyaness', name: 'Lyaness', city: 'London', country: 'UK' },
+  { id: 'schofields', name: "Schofield's", city: 'Manchester', country: 'UK' },
+  { id: 'swift', name: 'Swift', city: 'London', country: 'UK' },
+  { id: 'viajante87', name: 'Viajante87', city: 'London', country: 'UK' },
 ];
 
 // Lookup helper — used throughout the app
