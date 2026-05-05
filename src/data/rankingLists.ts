@@ -76,6 +76,38 @@ export const RANKING_LISTS: RankingList[] = [
     year: 2025,
     source: 'official',
   },
+  {
+    id: 'asia-2022',
+    name: "Asia's 50 Best Bars 2022",
+    shortName: 'Asia 2022',
+    region: 'Asia',
+    year: 2022,
+    source: 'official',
+  },
+  {
+    id: 'asia-2023',
+    name: "Asia's 50 Best Bars 2023",
+    shortName: 'Asia 2023',
+    region: 'Asia',
+    year: 2023,
+    source: 'official',
+  },
+  {
+    id: 'asia-2024',
+    name: "Asia's 50 Best Bars 2024",
+    shortName: 'Asia 2024',
+    region: 'Asia',
+    year: 2024,
+    source: 'official',
+  },
+  {
+    id: 'asia-2025',
+    name: "Asia's 50 Best Bars 2025",
+    shortName: 'Asia 2025',
+    region: 'Asia',
+    year: 2025,
+    source: 'official',
+  },
 ];
 
 export const RANKING_LISTS_BY_ID: Map<string, RankingList> = new Map(
