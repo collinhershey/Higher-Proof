@@ -22,6 +22,7 @@ type StoreState = {
 type StoreActions = {
   setStatus: (barId: string, status: BarStatus) => void;
   markVisited: (barId: string, date?: string) => void;
+  unmarkVisited: (barId: string) => void;
   toggleUnderground: (barId: string) => void;
   setRatings: (barId: string, ratings: Ratings) => void;
   setBarNotes: (barId: string, notes: string) => void;
@@ -88,6 +89,24 @@ export const useStore = create<Store>()(
               userData: {
                 ...s.userData,
                 [barId]: { ...bar, status: 'visited', visits },
+              },
+            };
+          }),
+
+        unmarkVisited: (barId: string) =>
+          setState((s: Store) => {
+            const bar = ensureBar(s.userData, barId);
+            const today = todayISO();
+            const visits = (bar.visits ?? []).filter((v) => {
+              if (v.date !== today) return true;
+              const hasNotes = (v.notes ?? '').trim() !== '';
+              const hasDrinks = (v.drinks ?? []).length > 0;
+              return hasNotes || hasDrinks;
+            });
+            return {
+              userData: {
+                ...s.userData,
+                [barId]: { ...bar, status: 'unvisited', visits },
               },
             };
           }),
