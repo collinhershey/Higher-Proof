@@ -91,7 +91,7 @@ export default function BarDetail() {
       <section className="space-y-3">
         <SectionLabel>Status</SectionLabel>
         <div className="flex flex-wrap gap-2">
-          {(['unvisited', 'wishlist', 'visited'] as const).map((s) => (
+          {(['unvisited', 'visited'] as const).map((s) => (
             <button
               key={s}
               onClick={() => setStatus(bar.id, s)}

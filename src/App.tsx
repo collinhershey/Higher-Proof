@@ -1,7 +1,9 @@
-import { Routes, Route, NavLink } from 'react-router-dom';
-import { BookOpen, BarChart3, Settings as SettingsIcon } from 'lucide-react';
+import { Routes, Route, NavLink, Link } from 'react-router-dom';
+import { BookOpen, BarChart3, ListOrdered, Settings as SettingsIcon } from 'lucide-react';
 import ListView from './routes/ListView';
 import BarDetail from './routes/BarDetail';
+import Lists from './routes/Lists';
+import ListDetail from './routes/ListDetail';
 import Stats from './routes/Stats';
 import Settings from './routes/Settings';
 
@@ -10,14 +12,14 @@ export default function App() {
     <div className="min-h-full flex flex-col">
       {/* Header */}
       <header className="border-b border-ink-600 bg-ink-900/80 backdrop-blur-sm sticky top-0 z-20 pt-safe">
-        <div className="max-w-3xl mx-auto px-5 py-4">
+        <Link to="/" aria-label="Home" className="block max-w-3xl mx-auto px-5 py-4">
           <h1 className="font-display text-2xl tracking-tight text-cream-50">
             Higher <span className="text-amber italic">Proof</span>
           </h1>
           <p className="font-sans text-[11px] tracking-widest uppercase text-cream-600 mt-0.5">
             A bar journal
           </p>
-        </div>
+        </Link>
       </header>
 
       {/* Main content */}
@@ -26,6 +28,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<ListView />} />
             <Route path="/bar/:id" element={<BarDetail />} />
+            <Route path="/lists" element={<Lists />} />
+            <Route path="/lists/:listId" element={<ListDetail />} />
             <Route path="/stats" element={<Stats />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
@@ -34,8 +38,9 @@ export default function App() {
 
       {/* Bottom nav */}
       <nav className="fixed bottom-0 left-0 right-0 border-t border-ink-600 bg-ink-900/95 backdrop-blur-sm z-20 pb-safe">
-        <div className="max-w-3xl mx-auto grid grid-cols-3">
+        <div className="max-w-3xl mx-auto grid grid-cols-4">
           <NavTab to="/" icon={BookOpen} label="Bars" />
+          <NavTab to="/lists" icon={ListOrdered} label="Lists" />
           <NavTab to="/stats" icon={BarChart3} label="Stats" />
           <NavTab to="/settings" icon={SettingsIcon} label="Settings" />
         </div>

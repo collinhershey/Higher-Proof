@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Search, X, ChevronDown } from 'lucide-react';
 import { useStore } from '../store';
 import { getAllBarViews, RANKING_LISTS, getFilterOptions, type BarView } from '../lib/selectors';
-import StatusBadge from '../components/StatusBadge';
+import StatusToggle from '../components/StatusToggle';
 import RankingBadge from '../components/RankingBadge';
 
 type Filters = {
@@ -11,7 +11,7 @@ type Filters = {
   listId: string | null;       // null = all lists (and underground)
   country: string | null;
   state: string | null;
-  status: 'all' | 'visited' | 'wishlist' | 'unvisited';
+  status: 'all' | 'visited' | 'unvisited';
 };
 
 const defaultFilters: Filters = {
@@ -86,7 +86,7 @@ export default function ListView() {
         <div className="bg-ink-800 border border-ink-600 rounded-sm p-4 space-y-4">
           {/* Status pills */}
           <FilterGroup label="Status">
-            {(['all', 'unvisited', 'wishlist', 'visited'] as const).map((s) => (
+            {(['all', 'unvisited', 'visited'] as const).map((s) => (
               <Pill
                 key={s}
                 active={filters.status === s}
@@ -241,7 +241,7 @@ function BarRow({ view }: { view: BarView }) {
             )}
           </div>
           <div className="flex-shrink-0">
-            <StatusBadge status={status} />
+            <StatusToggle barId={view.bar.id} status={status} />
           </div>
         </div>
       </Link>
