@@ -10,7 +10,6 @@ export default function Stats() {
   const overall = useMemo(() => {
     const totalBars = BARS.length;
     const visited = Object.values(userData).filter((u) => u.status === 'visited').length;
-    const wishlist = Object.values(userData).filter((u) => u.status === 'wishlist').length;
     const totalDrinks = Object.values(userData).reduce(
       (sum, u) => sum + (u.visits?.reduce((s, v) => s + (v.drinks?.length ?? 0), 0) ?? 0),
       0,
@@ -18,7 +17,7 @@ export default function Stats() {
     const ratedBars = Object.values(userData).filter(
       (u) => computeWeightedScore(u.ratings ?? {}) !== undefined,
     );
-    return { totalBars, visited, wishlist, totalDrinks, ratedCount: ratedBars.length };
+    return { totalBars, visited, totalDrinks, ratedCount: ratedBars.length };
   }, [userData]);
 
   const topRated = useMemo(() => {
@@ -40,7 +39,6 @@ export default function Stats() {
       {/* Top-line stats */}
       <div className="grid grid-cols-2 gap-3">
         <Stat label="Visited" value={overall.visited} suffix={`/ ${overall.totalBars}`} />
-        <Stat label="Wishlist" value={overall.wishlist} />
         <Stat label="Drinks logged" value={overall.totalDrinks} />
         <Stat label="Rated bars" value={overall.ratedCount} />
       </div>

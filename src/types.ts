@@ -31,7 +31,7 @@ export type BarRanking = {
 // User data — ratings, visits, drinks, status
 // ============================================================
 
-export type BarStatus = 'unvisited' | 'wishlist' | 'visited';
+export type BarStatus = 'unvisited' | 'visited';
 
 export type CocktailRatings = {
   taste?: number;          // 1-10, 0.5 increments
